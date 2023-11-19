@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const mongoString = process.env.DATABASE_URL;
 
 //Connect to our servers
-mongoose.connect(mongoString);
+mongoose.connect('mongodb+srv://edmond725:edmond725pp@cluster0.c750ujh.mongodb.net/testDatabase');
 const database = mongoose.connection;
 
 //Throw success or error message
