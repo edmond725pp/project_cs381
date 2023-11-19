@@ -3,7 +3,6 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const mongoose = require('mongoose');
-const mongoString = process.env.DATABASE_URL;
 
 //Connect to our servers
 mongoose.connect('mongodb+srv://edmond725:edmond725pp@cluster0.c750ujh.mongodb.net/testDatabase');
